@@ -1,0 +1,825 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+
+/*Página 1*/
+
+.logo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logo span {
+    color: #003D7D;
+    font-weight: 800;
+}
+
+.logo img {
+    margin-left: 10px;
+    width: 130px;
+}
+
+.navbar h2 {
+   text-align: center;
+   margin-top: 50px;
+   color: #008FD0;
+   font-size: 20px;
+}
+
+.navbar .linha::before {
+   content: '';
+   display: block;
+   width: 100%;
+   height: 5px;
+   background-color: #003D7D;
+}
+.areaCabecalho {
+   display:flex;
+   justify-content:center;
+}
+
+.cabecalho {
+    display: inline-flex;
+}
+
+.cabecalho .img {
+    width: 160px;
+    margin-top: 20px;
+}
+
+.cabecalho h1 {
+    color: #003D7D;
+    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.cabecalho .paragrafo {
+    font-size: 15px;
+    color: #008FD0;
+    text-align: center;
+    display: block;
+}
+
+.container {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+.container > div {
+   display:flex;
+   justify-content:space-between;
+   align-items:center;
+   height:auto;
+}
+.container > div .content {
+   margin-left:10px;
+   text-align: start;
+}
+
+.objetivo {
+    font-size: 16px;
+    text-align: center;
+    display: inline-flex;
+    margin-top: 30px;
+    width: 600px;
+    height: 130px;
+    background-color: #0C63AA;
+    color: #FFF;
+}
+
+.mapa {
+   font-size: 16px;
+   text-align: center;
+   display: inline-flex;
+   margin-top: 30px;
+   width: 600px;
+   height: 130px;
+   background-color: #003A79;
+   color: #FFF;
+}
+
+.mapa .titulo {
+   font-weight: 800;
+}
+
+.objetivo .titulo {
+    font-weight: 800;
+}
+
+.objetivo img,
+.mapa img {
+    width: 100px;
+}
+
+
+.linha2::before {
+    content: '';
+    width: 500px;
+    height: 3px;
+    display: block;
+    background-color: #003A79;
+    margin:auto;
+}
+
+.descricao-p1 {
+    text-align: center;
+    color: #0C63AA;
+    font-size: 13px;
+}
+
+/*Fim da página 1*/
+
+
+/*Início página 2*/
+
+.titulo2 h1 {
+   text-align: center;
+   color: #003A79;
+   font-weight: 300;
+}
+
+.titulo2 h2 {
+    text-align: center;
+    color: #008FD0;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.area-content {
+   display: flex;
+   padding: 10px;
+}
+
+.area-content p {
+   margin-top: 50p;
+   padding: 0 15px 2px;
+   margin:30px;
+}
+
+
+h5 {
+   background-color: rgb(235, 235, 235);
+   color: rgb(54, 54, 54);
+   padding: 10px;
+   margin-left: 22px;
+   text-align: center;
+   border-radius: 3px;
+}
+
+.area-content .column1 p {
+   background: rgb(235, 174, 184);
+   border-radius: 5px;
+   color: #003A79;
+   font-size: 14px;
+}
+
+.area-content .column2 p {
+   background: rgb(134, 210, 255);
+   border-radius: 5px;
+   color: #003A79;
+   font-size: 14px;
+   padding: 10px;
+   margin-top:55px;
+}
+
+.area-content .column3 p {
+   background: rgb(154, 226, 145);
+   border-radius: 5px;
+   color: #003A79;
+   font-size: 14px;
+   padding: 10px;
+   margin-top:10em;
+}
+
+.area-content .column4 p {
+   background: rgb(255, 247, 198);
+   border-radius: 5px;
+   color: #003A79;
+   font-size: 14px;
+   padding: 10px;
+   margin-top:16em;
+}
+
+.area-content .column5 p {
+   background: #003A79;
+   border-radius: 5px;
+   color: #FFF;
+   font-size: 14px;
+   padding: 10px;
+   margin-top:9em;
+}
+
+.descricao-p2 {
+   text-align: end;
+   padding: 0 15px;
+   color: #003A79;
+   font-size: 13px;
+   font-weight: 700;
+}
+
+/*Fim da página 2 */
+
+.titulo3 {
+   text-align: center;
+}
+
+.titulo3 h1 {
+   color: #003A79;
+   font-weight: 300;
+}
+
+.titulo3 h2 {
+   color: #008FD0;
+   font-weight: 300;
+   margin-top: 10px;
+}
+
+.pagina-3 .fase2 {
+   color: #003A79;
+   margin-top: 50px;
+   margin-left: 30%;
+}
+
+.pagina-3 .p2 {
+   color: #0C63AA;
+   margin-left: 30%;
+   font-size: 14px;
+}
+
+.pagina-3 .fase4 {
+   text-align: end;
+   padding-right: 14%;
+   color: #003A79;
+}
+
+.pagina-3 .p4 {
+   text-align: end;
+   margin-right: 15%;
+   font-size: 14px;
+   color: #0C63AA;
+}
+
+.fases-todos {
+   display: flex;
+   justify-content: center;
+}
+
+.fases-todos span {
+   color: #003A79;
+   font-weight: 700;
+   padding: 2px;
+   font-size: 13px;
+}
+
+.fase-1 {
+   width: 200px;
+   height: 36px;
+   background-color: #003A79;
+} 
+
+.fase-2 {
+   width: 300px;
+   height: 36px;
+   background-color: #5a7e99;
+}
+
+.fase-3 {
+   width: 300px;
+   height: 36px;
+   background-color: #8db8cc;
+   color: rgb(224, 85, 4);
+   font-weight: 700;
+}
+
+.fase-4 {
+   width: 200px;
+   height: 36px;
+   background-color: #dfdfdf;
+}
+
+.fase1 {
+   color: #003A79;
+   margin-left: 12%;
+   margin-top: 10px;
+}
+
+.p1 {
+   color: #003A79;
+   margin-left: 11%;
+   font-size: 14px;
+}
+
+.fase3 {
+   margin-left: 50%;
+   color: #003A79;
+}
+
+.p3 {
+   color: #003A79;
+   margin-left: 50%;
+   font-size: 14px;
+}
+
+.descricao-p3 {
+   color: #003A79;
+   font-size: 13px;
+   font-weight: 700;
+   text-align: end;
+   margin-right: 3%;
+   margin-top: 120px;
+}
+
+.titulo4 h1 {
+   color: #003A79;
+   font-weight: 300;
+   margin-left: 10%;
+}
+
+.titulo4 h2 {
+   color: #008FD0;
+   font-weight: 300;
+   margin-left: 10%;
+}
+
+.titulo4 h3 {
+   color: #003A79;
+   font-size: 16px;
+   margin-top: 20px;
+   margin-left: 18%;
+}
+
+.grafico1  {
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.grafico1 h6 {
+   font-weight: 600;
+   font-size: 10px;
+}
+
+.number13 {
+   width: 60px;
+   height: 20px;
+   background-color: rgb(75, 151, 94);
+   display: flex;
+   font-size: 13px;
+   font-weight: 700;
+}
+
+.number69 {
+   width: 150px;
+   height: 20px;
+   background-color: rgb(65, 206, 30);
+   display: flex;
+   font-size: 13px;
+   font-weight: 700;
+}
+
+.number1 {
+   width: 2px;
+   height: 20px;
+   background-color: rgb(26, 143, 55);
+   display: flex;
+}
+
+.porcents {
+   display: flex;
+   justify-content:center;
+}
+
+.porcents h6 {
+   padding: 10px;
+}
+
+.inform {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding: 15px;
+}
+
+.inform .verde-claro {
+   width: 15px;
+   height: 15px;
+   background-color: rgb(65, 206, 30);
+   margin: 0 10px;
+}
+
+.inform .verde {
+   width: 15px;
+   height: 15px;
+   background-color: rgb(26, 143, 55);
+   margin: 0 10px;
+}
+
+.inform .vermelho {
+   width: 15px;
+   height: 15px;
+   background-color: rgb(248, 7, 7);
+   margin: 0 10px;
+}
+
+.inform-two p {
+   color: #000;
+   font-size: 12px;
+   text-align: center;
+   margin-top: 30px;
+}
+
+.produtos {
+   display: flex;
+   justify-content:space-around;
+}
+
+.produtos h1 {
+   margin-left: 20%;
+   padding: 0 10px;
+}
+
+.number-blue {
+   color: #003A79;
+   font-weight: 700;
+}
+
+.number-green {
+   color: rgb(26, 143, 55);
+   font-weight: 700;
+}
+
+.number-red {
+   color: rgb(248, 7, 7);
+   font-weight: 700;
+}
+
+.descricao-p4 {
+   color: #003A79;
+   font-size: 12px;
+   font-weight: 700;
+   text-align: end;
+   margin-right: 15px;
+   margin-top: 20px;
+}
+
+.title-tabel {
+   text-align: center;
+}
+
+.title-tabel h3 {
+   color: #003A79;
+   margin-top: 20px;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.title-tabel p {
+   color: #003A79;
+   font-size: 12px;
+}
+
+table {
+   margin-top: 40px;
+   margin:auto;
+}
+
+table, th, td {
+   border: transparent;
+   border-collapse: collapse;
+   text-align: center;
+   color: #003A79;
+   font-weight: 700;
+   font-size: 12px;
+   padding: 2px;
+   border-radius: 2px;
+}
+
+th {
+   color: #003A79;
+   font-weight: 700;
+   font-size: 13px;
+}
+
+.color {
+   background: #c9e7ff;
+}
+
+/* Inicio da página 5 */
+.page-5 {
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+}
+.titulo5 {
+   margin-left: 20px;
+}
+
+.titulo5 h1,h2 {
+   color: #003A79;
+   font-weight: 300;
+}
+
+.titulo5 h3 {
+   margin:50px 0;
+   color: #003A79;
+   text-align: center;
+}
+
+.tabel-final {
+   display: flex;
+   width:400px;
+   padding:0 10px;
+}
+
+.tabel-final .tabel-4 {
+   font-size: 12px;
+   height: 30px;
+   background-color: #003A79;
+   color: #FFF;
+   width:20px;
+}
+
+.tabel-final .tabel-14 {
+   font-size: 12px;
+   width:90%;
+   height: 30px;
+   background-color: #008FD0;
+   color: #FFF;
+}
+
+.milhoes {
+   width:400px;
+   margin: auto;
+}
+.milhoes span {
+   font-size: 8px;
+   margin-left: 12px;
+}
+
+.progresso {
+   display: flex;
+   margin-top: 20px;
+}
+
+.progresso .value1 {
+   width: 15px;
+   height: 15px;
+   background-color: #003A79;
+   margin-left: 150px;
+}
+
+.progresso h3 {
+   font-size: 12px;
+   padding: 4px;
+}
+
+.progresso .value2 {
+   width: 15px;
+   height: 15px;
+   background-color: #008FD0;
+   padding: 2px;
+}
+
+.fonte {
+   color: #003A79;
+   font-size: 12px;
+   margin-left: 140px;
+   margin-top: 20px;
+}
+
+.indice1 {
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   margin-top: 30px;
+   margin-left:10px;
+}
+
+.indice2 {
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   margin-left:10px;
+}
+
+.indice3 {
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   margin-left:10px;
+}
+
+.indice1 img {
+   width: 40px;
+   height:40px;
+   margin-right:20px;
+}
+
+.indice2 img {
+   width: 40px;
+   height:100px;
+   margin-right:20px;
+}
+
+.indice3 img {
+   width: 40px;
+   height: 60px;
+   margin-right:10px;
+}
+
+.indice1 p,
+.indice2 p,
+.indice3 p {
+   padding:15px;
+   color:#003A79;
+}
+
+.g3 {
+   color: #003A79;
+   margin-left: 20px;
+}
+
+.grafico {
+   display: flex;
+   flex-direction: column;
+   margin-left: 30px;
+}
+
+.percentual {
+   width: 300px;
+   height: 22px;
+   background-color: #58caff;
+   padding: 2px;
+   color: #FFF;
+   font-size: 12px;
+}
+
+.betim {
+   width: 200px;
+   height: 22px;
+   background-color: #003A79;
+   margin-right: 100px;
+   color: #FFF;
+   font-size: 12px;
+}
+
+.tres-marias {
+   width: 350px;
+   height: 22px;
+   background-color: #58caff;
+   color: #FFF;
+   font-size: 12px;
+}
+
+.milhoes-two span {
+   font-size: 10px;
+   margin-left: 35px;
+}
+
+.descricao-p5 {
+   color: #003A79;
+   font-size: 12px;
+   text-align:right;
+   font-weight: 600;
+   margin-top: 30px;
+}
+
+/*Fim página 5 */
+
+/* Responsivity */
+@media only screen and ( min-width:1500px ) {
+   body {
+       margin:auto;
+       max-width:1500px;
+   }
+}
+@media only screen and ( max-width:900px ) {
+   .logo h1 {
+       font-size:30px;
+   }
+   .logo img {
+       width:100px;
+   }
+   .cabecalho .img {
+       width:100px;
+   }
+   .cabecalho h1 {
+       font-size:30px;
+   }
+   .container {
+       padding:0 10px;
+   }
+   .container > div {
+       max-width:600px;
+       width:100%;
+   }
+   .area-content {
+       max-width:900px;
+       flex-wrap:wrap;
+   }
+   .area-content > div {
+       margin-top:20px;
+       display:flex;
+       flex-direction:column;
+       align-items:center;
+       width:100%;
+   }
+   .area-content > div .title {
+       width:300px;
+   }
+   .area-content > div p {
+       width:250px;
+       margin-top:20px;
+   }
+   .area-content .column1 p,
+   .area-content .column2 p,
+   .area-content .column3 p,
+   .area-content .column4 p,
+   .area-content .column5 p {
+       margin-top:20px;
+   }
+   .porcents {
+       justify-content:flex-end;
+   }
+   .pagina-3 .fase2 {
+       margin-left: 20%;
+   }
+   .pagina-3 .p2 {
+       margin-left:20%;
+   }
+   .fase1 {
+       margin-left:9%;
+   }
+   .p1 {
+       margin-left:9%;
+   }
+}
+
+@media only screen and ( max-width:600px ) {
+   .logo h1 {
+       font-size:25px;
+   }
+   .cabecalho h1 {
+       font-size:27px;
+   }
+   .cabecalho .img {
+       width:80px;
+       height:80px;
+       margin-top:50px;
+   }
+   .cabecalho .paragrafo {
+       font-size:13px;
+   }
+   .objetivo img, .mapa img {
+       width:70px;
+       height:70px;
+   }
+   .logo img {
+       width:80px;
+   }
+   .logo h1 {
+       font-size:20px;
+   }
+   .navbar h2 {
+       font-size:15px;
+   }
+   .linha2::before {
+       width:70%;
+   }
+   .porcents {
+       width:100%;
+       justify-content:center;
+   }
+   .porcents h6 {
+       padding:5px;
+   }
+   .produtos > div h1 {
+       font-size:25px;
+   }
+   .produtos > div p {
+       font-size:15px;
+       text-align:center;
+   }
+   .fases-todos span {
+       display:none;
+   }
+   .pagina-3 .fase4 {
+       padding-right:0;
+   }
+   .pagina-3 .p4 {
+       margin-right:0;
+   }
+   .fase1 {
+       margin-left:0;
+   }
+   .p1 {
+       margin-left:0;
+   }
+}
