@@ -6,7 +6,7 @@
     
 }
 
-/*Página 1*/
+/*Página 1*/ 
 
 .logo {
     align-items: center;
@@ -544,6 +544,7 @@ th {
    background-color: #003A79;
    color: #FFF;
    width:20px;
+   text-align: right;
 }
 
 .tabel-final .tabel-14 {
@@ -552,6 +553,7 @@ th {
    height: 30px;
    background-color: #008FD0;
    color: #FFF;
+   text-align: right;
 }
 
 .milhoes {
@@ -613,7 +615,7 @@ th {
    display: flex;
    justify-content:center;
    align-items:center;
-   margin-left:10px;
+   margin-right: 20px;
 }
 
 .indice1 img {
@@ -623,15 +625,15 @@ th {
 }
 
 .indice2 img {
-   width: 40px;
-   height:100px;
+   width: 45px;
+   height:45px;
    margin-right:20px;
 }
 
 .indice3 img {
    width: 40px;
-   height: 60px;
-   margin-right:10px;
+   height: 40px;
+   margin-right:20px;
 }
 
 .indice1 p,
@@ -659,6 +661,7 @@ th {
    padding: 2px;
    color: #FFF;
    font-size: 12px;
+   text-align: right;
 }
 
 .betim {
@@ -668,6 +671,7 @@ th {
    margin-right: 100px;
    color: #FFF;
    font-size: 12px;
+   text-align: right;
 }
 
 .tres-marias {
@@ -676,6 +680,7 @@ th {
    background-color: #58caff;
    color: #FFF;
    font-size: 12px;
+   text-align: right;
 }
 
 .milhoes-two span {
